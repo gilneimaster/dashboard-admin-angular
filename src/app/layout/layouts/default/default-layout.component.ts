@@ -7,11 +7,11 @@ import { Navigation } from 'app/core/navigation/navigation.types';
 import { NavigationService } from 'app/core/navigation/navigation.service';
 
 @Component({
-    selector     : 'thin-layout',
-    templateUrl  : './thin.component.html',
+    selector     : 'default-layout',
+    templateUrl  : './default-layout.component.html',
     encapsulation: ViewEncapsulation.None
 })
-export class ThinLayoutComponent implements OnInit, OnDestroy
+export class DefaultLayoutComponent implements OnInit, OnDestroy
 {
     isScreenSmall: boolean;
     navigation: Navigation;

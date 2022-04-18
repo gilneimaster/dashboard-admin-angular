@@ -8,7 +8,7 @@ export type Layout =
     // Vertical
     | 'classic'
     | 'classy'
-    | 'compact'
+    | 'default'
     | 'dense'
     | 'futuristic'
     | 'thin';
